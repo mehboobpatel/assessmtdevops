@@ -1,0 +1,7 @@
+FROM python:3-alpine
+
+APP . /app
+
+WORKDIR /app
+
+CMD ["python","serv.py"]
